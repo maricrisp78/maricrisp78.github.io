@@ -1,0 +1,323 @@
+
+
+
+html {
+	font-family: sans-serif;
+	margin: 0px;
+
+}
+
+body {
+	margin: 0px;
+	background-color: #90C3D4;
+	font-family: sans-serif;
+}
+
+
+
+.top_nav {
+	
+	list-style-type: none;
+	font-size: 17px;
+	margin-left: 750px;
+	
+
+	
+
+}
+
+
+.top_nav ul{
+	display: inline;
+
+}
+.top_nav li{
+	float: left;
+	
+	
+}
+
+.top_nav a {
+	
+	padding: 20px;
+	display: inline-block;
+	margin-top: 50px;
+	text-decoration: none;
+	color: whitesmoke;
+		background-color: #E08A6E;
+	border-radius: 10px;
+	margin-right: 10px;
+
+}
+
+.baracross {
+	background-color: #383637;
+	width: 100%;
+	height: 150px;
+	margin: 0px;
+	
+}
+
+
+a:active {
+	color: white;
+}
+
+a:hover {
+	color: darkgoldenrod;
+}
+
+
+
+.logos {
+	font-family: sans-serif;
+	
+}
+
+.logos h5 {
+	margin-left: 185px;
+	margin-top: 110px;
+	text-decoration: underline;
+}
+
+.logos ul{
+	list-style-type: none;
+	margin-left: 140px;
+
+}
+
+.logos li{
+	display: inline;
+	padding: 5px;
+		
+}
+
+
+.logo1 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.logo2 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.logo3 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.logo4 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.logo5 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+
+.book_covers {
+	font-family: sans-serif;
+	
+}
+
+.book_covers h5 {
+	margin-left: 185px;
+	margin-top: 60px;
+	text-decoration: underline;
+}
+
+.book_covers ul{
+	list-style-type: none;
+	margin-left: 140px;
+
+}
+
+.book_covers li{
+	display: inline;
+	padding: 5px;
+		
+}
+
+
+.bc1 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.bc2{
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.bc3 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+
+.poster {
+	font-family: sans-serif;
+	
+}
+
+.posters h5 {
+	margin-left: 185px;
+	margin-top: 60px;
+	text-decoration: underline;
+}
+
+.posters ul{
+	list-style-type: none;
+	margin-left: 140px;
+
+}
+
+.posters li{
+	display: inline;
+	padding: 5px;
+		
+}
+
+
+.poster1 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.poster2{
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.poster3 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+
+
+
+.webdev {
+	font-family: sans-serif;
+	
+}
+
+.webdev h5 {
+	margin-left: 185px;
+	margin-top: 110px;
+	text-decoration: underline;
+}
+
+.webdev ul{
+	list-style-type: none;
+	margin-left: 140px;
+
+}
+
+.webdev li{
+	display: inline;
+	padding: 5px;
+		
+}
+
+
+.webdev1 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.webdev2 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.webdev3 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.webdev4 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+.webdev5 {
+	box-shadow: 5px 5px 5px gray;
+	border-radius: 5px;
+}
+
+
+
+#contactme {
+	border: 4px dotted gray;
+	background-color: white;
+	width: 40%;
+	color: #696969;
+	text-align: center;
+	margin-left: 430px;
+	margin-top: 100px;
+}	
+
+.phone {
+	position: relative;
+	text-align: center;
+	margin-left: 22px;
+}
+
+.email {
+	position: relative;
+	text-align: center;
+	margin-left: 35px;
+}
+
+.logo {
+	margin-left: 190px;
+	margin-top: -100px;
+	height: 70px;
+	border: 2px solid gray;
+}
+
+.aboutme {
+	background-color: #E08A6E;
+	width: 50%;
+	margin-left: 300px;
+	margin-top: 50px;
+	padding: 10px;
+	border: 3px solid white;
+	border-radius: 10px;
+	color: #0D0C0C;
+}
+
+.myemail {
+	text-decoration: none;
+
+}
+
+
+#social {
+	margin: 60px;
+	margin-left: 180px;
+	padding: 20px;
+	width: 20%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

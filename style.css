@@ -253,13 +253,16 @@ a:hover {
 
 
 #contactme {
+	text-decoration: none;
 	border: 4px dotted gray;
-	background-color: white;
+	background-color: #8C8E8F;
 	width: 40%;
-	color: #696969;
+	color: white;
 	text-align: center;
-	margin-left: 430px;
+	margin-left: 450px;
 	margin-top: 100px;
+	margin-bottom: 400px;
+
 }	
 
 .phone {
@@ -288,7 +291,7 @@ a:hover {
 	margin-left: 330px;
 	margin-top: 50px;
 	padding: 20px;
-
+	margin-bottom: 100px;
 	border-radius: 10px;
 	color: #0D0C0C;
 
@@ -304,10 +307,8 @@ a:hover {
 	padding: 10px;
 	border-radius: 5px;
 
-	
-	
-
 }
+
 
 .checkitout {
 	margin-left: 540px;

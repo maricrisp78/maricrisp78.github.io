@@ -255,7 +255,7 @@ a:hover {
 #contactme {
 	text-decoration: none;
 	border: 4px dotted gray;
-	background-color: #8C8E8F;
+/*	background-color: #8C8E8F;*/
 	width: 40%;
 	color: white;
 	text-align: center;
@@ -317,7 +317,7 @@ a:hover {
 	width: 20%;
 	text-align: center;
 	padding: 10px;
-	color: #626B6E;
+	color: white;
 	font-size: 20px;
 	border: 2px dotted white;
 	border-radius: 5px;

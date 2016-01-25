@@ -68,6 +68,7 @@ a:active {
 
 a:hover {
 	color: darkgoldenrod;
+	
 }
 
 
@@ -248,12 +249,14 @@ a:hover {
 .webdev ul{
 	list-style-type: none;
 	padding-top: 20px;
+	
 
 }
 
 .webdev li {
 	display: inline;
 	padding: 15px;
+	
 
 		
 }
@@ -261,17 +264,20 @@ a:hover {
 .webdev1 {
 	box-shadow: 5px 5px 5px black;
 	border-radius: 5px;
+
 	
 }
 
 .webdev2 {
 	box-shadow: 5px 5px 5px black;
 	border-radius: 5px;
+	relative;
 }
 
 .webdev3 {
 	box-shadow: 5px 5px 5px black;
 	border-radius: 5px;
+	
 }
 
 .webdev4 {

@@ -256,9 +256,12 @@ a:hover {
 .webdev li {
 	display: inline;
 	padding: 15px;
-	
-
 		
+}
+
+.capstone {
+	box-shadow: 5px 5px 5px black;
+	border-radius: 5px;
 }
 
 .webdev1 {

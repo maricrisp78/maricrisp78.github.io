@@ -12,6 +12,7 @@ body {
 	background-color: #232424;
 
 
+
 	/*background-image: url('images/Rust.jpg');*/
 	
 	/*background-repeat: no-repeat;*/
@@ -44,11 +45,16 @@ body {
 }
 
 .comeinimg {
-	margin-left: 660px;
+	margin-left: 650px;
+}
+
+.scroll {
+	margin-left: 620px;
+	margin-top: -70px;
 }
 
 .worklinks {
-	margin-top: 140px;
+	margin-top: 30px;
 	margin-bottom: 300px;
 }
 
@@ -82,6 +88,24 @@ body {
 	
 	
 }
+
+a.backtotop {
+	color: white;
+	display: inline-block;
+	width: 70px;
+	height: 60px;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	background: white url('images/scrollupimage.png')no-repeat center 38%;
+	border-radius: 10px;
+	text-indent: -9999px;
+}
+
+a:hover:backtotop {
+	background-color: black;
+}
+
 
 a:active {
 	color: blue;
@@ -388,15 +412,16 @@ a:hover {
 
 
 #contactme {
-	text-decoration: none;
-	border: 4px dotted gray;
 	background-color: #85EFF2;
-	border-radius: #DB5A23;
-	width: 50%;
-	color: blue;
+	font-size: 14px;
+	width: 30%;
+	margin-left: 390px;
 	text-align: center;
-	margin-left: 365px;
-	margin-bottom: 100px;
+	padding: 25px;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 10px;
+	color: #0D0C0C;
+	margin-top: 80px;
 
 }	
 
@@ -479,31 +504,6 @@ a:hover {
 
 .menu-trigger {
 	display: none;
-}
-
-@media screen and (max-width: 480px) {
-
-	.menu-trigger {
-	display: block;
-	}
-
-	div.top_nav {
-		display: none;
-	}
-
-	div.nav-expanded {
-		display: block;
-	}
-
-	div.top_nav ul li {
-		float: none;
-		border-bottom: 2px solid blue;
-	}
-
-	div.top_nav ul li:last-child {
-		border-bottom: none;
-
-	}
 
 }
 
@@ -513,7 +513,7 @@ accepted
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles */
+	}
 }
 
 /* Smartphones (landscape) ----------- */
@@ -553,14 +553,16 @@ and (orientation : portrait) {
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 1824px)
+and (max-device-width : 2400px{
 /* Styles */
 }
 
 /* Large screens ----------- */
 @media only screen 
-and (min-width : 1824px) {
-/* Styles */
+and (min-width : 1824px)
+and (max-device-width : 2000px) {
+
 }
 
 /* iPhone 4 ----------- */
@@ -571,7 +573,17 @@ and (min-device-pixel-ratio : 1.5) {
 }
 
 
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
 
 
 

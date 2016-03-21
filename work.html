@@ -5,7 +5,7 @@
  <meta charset="utf-8">
 	 <title>Marie's Portfolio</title>
 	 <link rel="stylesheet" href="style.css">
-	 <link rel="javascript" href="main.js">
+	 <link rel="javascript" type="text/javascript" href="main.js">
 	 	<link rel="stylesheet" href="animate.css">
 	 	<script src="wow.min.js"></script>
               <script>
@@ -32,6 +32,28 @@
 
 	
 <body>
+	
+	<script type="text/javascript">
+	
+			$(window).scroll(function(){
+				if ($(window).scrollTop() > 400){
+					$('a.backtotop').fadeIn('fast');
+					
+				} else {
+						$('a.backtotop').fadeOut('fast');
+				}
+			})
+				
+				$('a.backtotop').click(function(){
+				$('body')animate({
+					scrollTop: ()
+				},'fast');
+				
+				return false;
+			
+			})						 
+	</script>								 
+	
 	<header>
 
 	<div>
@@ -63,8 +85,23 @@
 		
 	
 		<script type="text/javascript">
-			$('body').prepend(<'a href="#" class="backtotop">Backt to top</a>');
-		
+		$(window).scroll(function(){
+				if ($(window).scrollTop() > 400){
+					$('a.backtotop').fadeIn('slow');
+					
+				} else {
+						$('a.backtotop').fadeOut('slow');
+				}
+			})
+				
+				$('a.backtotop').click(function(){
+				$('body')animate({
+					scrollTop: ()
+				},'slow');
+				
+				return false;
+			
+			})
 		</script>
 		
 		
@@ -117,30 +154,30 @@
 	<ul>
 	
 	<li class="capstoneproject">
-			<a href="http://maricrisp.com/Capstone3/#/"><img class="capstone" src="images/abstract/Capstone3175x125.png" style="width:15%;height: auto;" onmouseover="this.src='images/hover/capstoneHOVER.png'" onmouseout="this.src='images/abstract/Capstone3175x125.png'"></a>
+			<a href="http://maricrisp.com/Capstone3/#/"><img class="capstone" src="images/abstract/Capstone3175x125.png" style="width:17%;height: auto;" onmouseover="this.src='images/hover/capstoneHOVER.png'" onmouseout="this.src='images/abstract/Capstone3175x125.png'"></a>
 		</li>
 	
 		<li class="mtrainier">
-			<a href="http://www.maricrisp.com/wats1020-add-a-map/"><img class="webdev1" src="images/abstract/map175x125.png" style="width:15%;height: auto;" onmouseover="this.src='images/hover/AddamapHOVER_2.png'" onmouseout="this.src='images/abstract/map175x125.png'"></a>
+			<a href="http://www.maricrisp.com/wats1020-add-a-map/"><img class="webdev1" src="images/abstract/map175x125.png" style="width:17%;height: auto;" onmouseover="this.src='images/hover/AddamapHOVER_2.png'" onmouseout="this.src='images/abstract/map175x125.png'"></a>
 		</li>
 
 		<li class="hikingbliss">
-			<a href="http://maricrisp.com/angularJS/#/"><img class="webdev2" src="images/abstract/hikingbliss175x125.png" style="width:15%;height: auto;" onmouseover="this.src='images/hover/webappHOVER_2.png'" onmouseout="this.src='images/abstract/hikingbliss175x125.png'"></a>
+			<a href="http://maricrisp.com/angularJS/#/"><img class="webdev2" src="images/abstract/hikingbliss175x125.png" style="width:17%;height: auto;" onmouseover="this.src='images/hover/webappHOVER_2.png'" onmouseout="this.src='images/abstract/hikingbliss175x125.png'"></a>
 
 	
 		<li>
-			<a href="http://mysimplebliss.com/"><img class="webdev3" src="images/abstract/mysimplebliss175x125.png" style="width:15%;height: auto;" onmouseover="this.src='images/hover/wpecommerceHOVER_2.png'" onmouseout="this.src='images/abstract/mysimplebliss175x125.png'"></a>
+			<a href="http://mysimplebliss.com/"><img class="webdev3" src="images/abstract/mysimplebliss175x125.png" style="width:17%;<heig></heig>ht: auto;" onmouseover="this.src='images/hover/wpecommerceHOVER_2.png'" onmouseout="this.src='images/abstract/mysimplebliss175x125.png'"></a>
 		</li>
 	
 		<li>
-			<a href="http://www.maricrisp.com/wats1010-css-zen-garden/"><img class="webdev4" src="images/abstract/csszengarden175x125.png" style="width:15%;height: auto;" onmouseover="this.src='images/hover/csszengardenHOVER_2.png'" onmouseout="this.src='images/abstract/csszengarden175x125.png'"></a>
+			<a href="http://www.maricrisp.com/wats1010-css-zen-garden/"><img class="webdev4" src="images/abstract/csszengarden175x125.png" style="width:17%;height: auto;" onmouseover="this.src='images/hover/csszengardenHOVER_2.png'" onmouseout="this.src='images/abstract/csszengarden175x125.png'"></a>
 		</li>
 		
 		<li>
-			<a href="http://www.maricrisp.com/Custom-Content-Page/"><img class="webdev5" src="images/abstract/contentpagelayout175x125.png" style="width:15%;height: auto;" onmouseover="this.src='images/hover/customcontentHOVER_2.png'" onmouseout="this.src='images/abstract/contentpagelayout175x125.png'"></a>
+			<a href="http://www.maricrisp.com/Custom-Content-Page/"><img class="webdev5" src="images/abstract/contentpagelayout175x125.png" style="width:17%;height: auto;" onmouseover="this.src='images/hover/customcontentHOVER_2.png'" onmouseout="this.src='images/abstract/contentpagelayout175x125.png'"></a>
 		</li>
 	
-		<li><a href="http://toiletchampion.com/"><img class="webdev7" src="images/abstract/toiletchampion175x125.png" style="width:15%;height: auto;" onmouseover="this.src='images/hover/wpsmallbusinessHOVER_2.png'" onmouseout="this.src='images/abstract/toiletchampion175x125.png'"></a>
+		<li><a href="http://toiletchampion.com/"><img class="webdev7" src="images/abstract/toiletchampion175x125.png" style="width:17%;height: auto;" onmouseover="this.src='images/hover/wpsmallbusinessHOVER_2.png'" onmouseout="this.src='images/abstract/toiletchampion175x125.png'"></a>
 		</li>
 		
 	</ul>
@@ -163,19 +200,19 @@
 	<ul>
 		
 		<li>
-		<a href="images/450 x 321/Sweet_Sound.png"><img class="logo1" src="images/abstract/s_s_abstract2.png" style="width: 15%;height: auto;"></a>
+		<a href="images/450 x 321/Sweet_Sound.png"><img class="logo1" src="images/abstract/s_s_abstract2.png" style="width: 17%;height: auto;"></a>
 		</li>
 			
-		<li><a href="images/450 x 321/Sunspring.png"><img class="logo2" src="images/abstract/sunspring_abstract.png" style="width: 15%;height: auto;"></a>
+		<li><a href="images/450 x 321/Sunspring.png"><img class="logo2" src="images/abstract/sunspring_abstract.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
-		<li><a href="images/450 x 321/BaskNWlogo.png"><img class="logo3" src="images/abstract/basketballnw_abstract.png" style="width: 15%;height: auto;"></a>
+		<li><a href="images/450 x 321/BaskNWlogo.png"><img class="logo3" src="images/abstract/basketballnw_abstract.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
-		<li><a href="images/450 x 321/2ZeroSix.png"><img class="logo4" src="images/abstract/2ZeroSix_abstract.png" style="width: 15%;height: auto;"></a>
+		<li><a href="images/450 x 321/2ZeroSix.png"><img class="logo4" src="images/abstract/2ZeroSix_abstract.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
-		<li><a href="images/450 x 321/LA.png"><img class="logo5" src="images/abstract/lionarc_abstract2.png" style="width: 15%;height: auto;"></a>
+		<li><a href="images/450 x 321/LA.png"><img class="logo5" src="images/abstract/lionarc_abstract2.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
 		
@@ -198,15 +235,15 @@
 	
 	<ul>
 		<li>
-			<a href="images/450 x 321/KYFS book cover.png"><img class="bc1" src="images/abstract/KYFS book cover.png" style="width: 15%;height: auto;"></a>
+			<a href="images/450 x 321/KYFS book cover.png"><img class="bc1" src="images/abstract/KYFS book cover.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
 		<li>
-			<a href="images/450 x 321/TTH book cover.png"><img class="bc2" src="images/abstract/TTH book cover.png" style="width: 15%;height: auto;"></a>
+			<a href="images/450 x 321/TTH book cover.png"><img class="bc2" src="images/abstract/TTH book cover.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
 		<li>
-			<a href="images/450 x 321/AOW book cover.png"><img class="bc3" src="images/abstract/AOW book cover.png" style="width: 15%;height: auto;"></a>
+			<a href="images/450 x 321/AOW book cover.png"><img class="bc3" src="images/abstract/AOW book cover.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
 	</ul>
@@ -230,13 +267,13 @@
 	
 	<ul>
 		<li>
-			<a href="images/450 x 321/RR poster.png"><img class="poster1" src="images/abstract/RR poster.png" style="width: 15%;height: auto;"></a>
+			<a href="images/450 x 321/RR poster.png"><img class="poster1" src="images/abstract/RR poster.png" style="width: 17%;height: auto;"></a>
 		</li>
 		<li>
-			<a href="images/450 x 321/G&C poster.png"><img class="poster2" src="images/abstract/G&C poster.png" style="width: 15%;height: auto;"></a>
+			<a href="images/450 x 321/G&C poster.png"><img class="poster2" src="images/abstract/G&C poster.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
-		<li><a href="images/450 x 321/Easter poster.png"><img class="poster3" src="images/abstract/Easter poster.png" style="width: 15%;height: auto;"></a>
+		<li><a href="images/450 x 321/Easter poster.png"><img class="poster3" src="images/abstract/Easter poster.png" style="width: 17%;height: auto;"></a>
 		</li>
 		
 	</ul>
